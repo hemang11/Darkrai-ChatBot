@@ -1,0 +1,6 @@
+db.sqlite3
+pyvenv.cfg
+index.html
+node modules
+Lib
+Include
