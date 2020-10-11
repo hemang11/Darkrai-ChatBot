@@ -3,8 +3,6 @@
 ```
 1) cd folder
 2) .\Scripts\activate 
-3) pip install chatterbox==1.0.2
-4) pip install sqlalchemy --upgrade
-5) pip install pytz
 Run the chat.py file
 ```
+#### For more on chatterbox refer [here](https://chatterbot.readthedocs.io/en/stable/)
