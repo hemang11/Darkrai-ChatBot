@@ -75,14 +75,12 @@ trainer = ListTrainer(chatbot)
 for item in (general, project):
     trainer.train(item)
 
-if __name__ == "__main__":
-    while True:
-        try:
-            user_input = input('User : ')
-            bot_response = chatbot.get_response(user_input)
-            if(bot_response.confidence < 0.2):
-                print('I am sorry, but I do not understand.')
-            else:
-                print(f'Chat-Bot : {bot_response}')
-        except(KeyboardInterrupt, EOFError, SystemExit):
-            break
+
+user_input = sys.argv[1]
+bot_response = chatbot.get_response(user_input)
+if(bot_response.confidence < 0.1):
+    print('I am sorry, but I do not understand.')
+else:
+    print(bot_response)
+
+#print(sys.argv[1])
