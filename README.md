@@ -1,5 +1,5 @@
 # Darkrai-ChatBot
-- Clone the Repo and run the following commands
+- All the dependencies are preinstalled so clone the Repo and run the following commands
 ```
 1) cd folder
 2) .\Scripts\activate 
